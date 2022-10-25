@@ -1,12 +1,9 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
-
-
 int main(){
-
+    
     int A[]={8,4,6,1,6,9,6,1,9,8},num,c=0;
-
     cout<<"Please enter the Number you want to search: ";
     cin>>num;
 
@@ -16,7 +13,6 @@ int main(){
         }
     }
     cout<<"The number you entered occurs "<<c<<" times"<<endl;
-
 return 0;
 }
 
